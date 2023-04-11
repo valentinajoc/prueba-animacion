@@ -1,0 +1,26 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+.circle{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+    height: 150px;
+    background: cornflowerblue;
+    border-radius: 50%;
+
+    /*ANIMATION*/
+    animation-name: cambiarColor;
+    animation-duration: 3s;}
+
+    @keyframes cambiarColor {
+        0%{
+            transform:scale(.6);
+        }
+        50%{
+        transform:scale(.9);}
+
+    100% {transform:(1);}
+        }
